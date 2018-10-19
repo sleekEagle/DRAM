@@ -1,4 +1,23 @@
-the papers we looked into i.e Self-Optimizing Memory Controllers: A Reinforcement Learning Approach and MORSE: Multi-objective Reconfigurable
+the papers we looked into i.e Self-Optimizing Memory Controllers: A Reinforcement Learning Approach and 
+MORSE: Multi-objective Reconfigurable
 
-Self-optimizing Memory Scheduler use a simulator called "SESC". But it looks like a CPU simulator. Not a DRAM simulator. Why did they use it ? Can we or should we use another DRAM simulator ?
-  "
+Self-optimizing Memory Scheduler use a simulator called 
+"SESC". But it looks like a CPU simulator. Not a DRAM simulator. 
+Why did they use it ? Can we or should we use another DRAM simulator ?
+  from a first glance I don't think SESC models a DRAM. But do we need to model DRAM for this purpose ?
+because are we only modelling scheduler ?
+then DRAM can be a black-box for this research ?
+**************************************************
+What are the capabilities of DRAM simulators ?"
+
+
+***********
+random ideas
+***********
+can we do something like hashing to represent history of the commands during the 
+RL procedure ?
+current literature only considers the current state as the state of the Markovean process
+
+We might select to optimize the performance only for this project for simplicity.
+
+
