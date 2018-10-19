@@ -1,0 +1,4 @@
+the papers we looked into i.e Self-Optimizing Memory Controllers: A Reinforcement Learning Approach and MORSE: Multi-objective Reconfigurable
+
+Self-optimizing Memory Scheduler use a simulator called "SESC". But it looks like a CPU simulator. Not a DRAM simulator. Why did they use it ? Can we or should we use another DRAM simulator ?
+  "
